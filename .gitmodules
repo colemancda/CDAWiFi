@@ -1,0 +1,3 @@
+[submodule "objfw"]
+	path = objfw
+	url = https://github.com/colemancda/objfw.git
