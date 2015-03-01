@@ -207,7 +207,7 @@
  * @discussion
  * Clients may register for specific Wi-Fi events using -[CDAWiFiClient startMonitoringEventWithType:error:].
  */
-@property(nonatomic, weak) id delegate;
+@property(nonatomic, weak) id<CDAWiFiEventDelegate> delegate;
 
 /*! @functiongroup Getting a Wi-Fi Client */
 
@@ -241,7 +241,7 @@
  * @method
  *
  * @result
- * An NSArray of NSString objects corresponding to Wi-Fi interface names.
+ * An OFArray of OFString objects corresponding to Wi-Fi interface names.
  *
  * @abstract
  * Returns the list of available Wi-Fi interface names (e.g. "en0").
@@ -271,7 +271,7 @@
  * @method
  *
  * @result
- * An NSArray of CDAWiFiInterface objects.
+ * An OFArray of CDAWiFiInterface objects.
  *
  * @abstract
  * Returns all available Wi-Fi interfaces.
@@ -280,7 +280,7 @@
  * If no Wi-Fi interfaces are available, this method will return an empty array.
  * Returns nil if an error occurs.
  */
-- (NSArray *)interfaces;
+- (OFArray *)interfaces;
 
 /*! @functiongroup Register for Wi-Fi Events */
 
@@ -291,7 +291,7 @@
  * A CDAWiFiEventType value.
  *
  * @param error
- * An NSError object passed by reference, which upon return will contain the error if an error occurs.
+ * An CDAError object passed by reference, which upon return will contain the error if an error occurs.
  * This parameter is optional.
  *
  * @result
@@ -309,7 +309,7 @@
  * A CDAWiFiEventType value.
  *
  * @param error
- * An NSError object passed by reference, which upon return will contain the error if an error occurs.
+ * An CDAError object passed by reference, which upon return will contain the error if an error occurs.
  * This parameter is optional.
  *
  * @result
@@ -324,7 +324,7 @@
  * @method
  *
  * @param error
- * An NSError object passed by reference, which upon return will contain the error if an error occurs.
+ * An CDAError object passed by reference, which upon return will contain the error if an error occurs.
  * This parameter is optional.
  *
  * @result

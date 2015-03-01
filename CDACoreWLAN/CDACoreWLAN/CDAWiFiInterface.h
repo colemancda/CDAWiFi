@@ -15,7 +15,7 @@
  * @class
  *
  * @abstract
- * Control and query a Wi-Fi interface on OS X.
+ * Control and query a Wi-Fi interface.
  *
  * @discussion
  * All actions performed by a CDAWiFiInterface object are executed on the Wi-Fi device with the corresponding interface name.
@@ -263,7 +263,6 @@
  * Sets the Wi-Fi interface power state.
  *
  * @discussion
- * Requires the <i>com.apple.wifi.set_power</i> entitlement.
  */
 - (BOOL)setPower:(BOOL)power error:(out CDAError **)error;
 
@@ -287,7 +286,6 @@
  *
  * @discussion
  * Setting the channel while the interface is associated to a Wi-Fi network is not permitted.
- * Requires the <i>com.apple.wifi.set_channel</i> entitlement.
  */
 - (BOOL)setWLANChannel:(CDAWiFiChannel *)channel error:(out CDAError **)error;
 
@@ -312,7 +310,6 @@
  *
  * @discussion
  * The specified key must be exactly 32 octets.
- * Requires the <i>com.apple.wifi.set_pmk</i> entitlement.
  */
 - (BOOL)setPairwiseMasterKey:(OFDataArray *)key error:(out CDAError **)error;
 
