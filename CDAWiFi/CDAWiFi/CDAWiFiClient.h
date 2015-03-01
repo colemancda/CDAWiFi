@@ -7,9 +7,10 @@
 //
 
 #import <ObjFW/ObjFW.h>
+#import <CDAFoundation/CDAFoundation.h>
 #import <CDAWiFi/CDAWiFiTypes.h>
 
-@class CDAWiFiInterface, CDAError;
+@class CDAWiFiInterface;
 
 /*!
  * @protocol

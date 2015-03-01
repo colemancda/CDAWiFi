@@ -10,17 +10,17 @@
 		6EB86D5C1AA2E9C300C7F454 /* CDAWiFi.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D5B1AA2E9C300C7F454 /* CDAWiFi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86D621AA2E9C300C7F454 /* CDAWiFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86D561AA2E9C300C7F454 /* CDAWiFi.framework */; };
 		6EB86D691AA2E9C300C7F454 /* CDAWiFiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D681AA2E9C300C7F454 /* CDAWiFiTests.m */; };
-		6EB86D7F1AA2E9ED00C7F454 /* CDAWiFiChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D731AA2E9ED00C7F454 /* CDAWiFiChannel.h */; };
+		6EB86D7F1AA2E9ED00C7F454 /* CDAWiFiChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D731AA2E9ED00C7F454 /* CDAWiFiChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86D801AA2E9ED00C7F454 /* CDAWiFiChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D741AA2E9ED00C7F454 /* CDAWiFiChannel.m */; };
-		6EB86D811AA2E9ED00C7F454 /* CDAWiFiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D751AA2E9ED00C7F454 /* CDAWiFiClient.h */; };
+		6EB86D811AA2E9ED00C7F454 /* CDAWiFiClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D751AA2E9ED00C7F454 /* CDAWiFiClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86D821AA2E9ED00C7F454 /* CDAWiFiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D761AA2E9ED00C7F454 /* CDAWiFiClient.m */; };
-		6EB86D831AA2E9ED00C7F454 /* CDAWiFiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D771AA2E9ED00C7F454 /* CDAWiFiInterface.h */; };
+		6EB86D831AA2E9ED00C7F454 /* CDAWiFiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D771AA2E9ED00C7F454 /* CDAWiFiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86D841AA2E9ED00C7F454 /* CDAWiFiInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D781AA2E9ED00C7F454 /* CDAWiFiInterface.m */; };
-		6EB86D851AA2E9ED00C7F454 /* CDAWiFiNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D791AA2E9ED00C7F454 /* CDAWiFiNetwork.h */; };
+		6EB86D851AA2E9ED00C7F454 /* CDAWiFiNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D791AA2E9ED00C7F454 /* CDAWiFiNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86D861AA2E9ED00C7F454 /* CDAWiFiNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D7A1AA2E9ED00C7F454 /* CDAWiFiNetwork.m */; };
-		6EB86D871AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D7B1AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.h */; };
+		6EB86D871AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D7B1AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86D881AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D7C1AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.m */; };
-		6EB86D891AA2E9ED00C7F454 /* CDAWiFiTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D7D1AA2E9ED00C7F454 /* CDAWiFiTypes.h */; };
+		6EB86D891AA2E9ED00C7F454 /* CDAWiFiTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D7D1AA2E9ED00C7F454 /* CDAWiFiTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EB86DE71AA2ECB800C7F454 /* CDAFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DCA1AA2EBFB00C7F454 /* CDAFoundation.framework */; };
 		6EB86E031AA2F17800C7F454 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DFC1AA2F16300C7F454 /* ObjFW.framework */; };
 /* End PBXBuildFile section */
