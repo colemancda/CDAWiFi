@@ -9,6 +9,7 @@
 #import <ObjFW/ObjFW.h>
 #import <CDAFoundation/CDAFoundation.h>
 #import <CDAWiFi/CDAWiFiTypes.h>
+#include <dispatch/dispatch.h>
 
 @class CDAWiFiInterface;
 

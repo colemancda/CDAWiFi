@@ -10,4 +10,17 @@
 
 @implementation CDAWiFiClient
 
++ (instancetype)sharedWiFiClient
+{
+    static CDAWiFiClient *sharedStore = nil;
+    
+    static dispatch_once_t onceToken;
+    
+    dispatch_once(&onceToken, ^{
+        sharedStore = [[self alloc] init];
+    });
+    
+    return sharedStore;
+}
+
 @end
