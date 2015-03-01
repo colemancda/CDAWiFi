@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EB86CFB1AA29C6D00C7F454"
-               BuildableName = "CDACoreWLAN.framework"
-               BlueprintName = "CDACoreWLAN"
-               ReferencedContainer = "container:CDACoreWLAN.xcodeproj">
+               BlueprintIdentifier = "6EB86D551AA2E9C300C7F454"
+               BuildableName = "CDAWiFi.framework"
+               BlueprintName = "CDAWiFi"
+               ReferencedContainer = "container:CDAWiFi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EB86D061AA29C6D00C7F454"
-               BuildableName = "CDACoreWLANTests.xctest"
-               BlueprintName = "CDACoreWLANTests"
-               ReferencedContainer = "container:CDACoreWLAN.xcodeproj">
+               BlueprintIdentifier = "6EB86D601AA2E9C300C7F454"
+               BuildableName = "CDAWiFiTests.xctest"
+               BlueprintName = "CDAWiFiTests"
+               ReferencedContainer = "container:CDAWiFi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6EB86D061AA29C6D00C7F454"
-               BuildableName = "CDACoreWLANTests.xctest"
-               BlueprintName = "CDACoreWLANTests"
-               ReferencedContainer = "container:CDACoreWLAN.xcodeproj">
+               BlueprintIdentifier = "6EB86D601AA2E9C300C7F454"
+               BuildableName = "CDAWiFiTests.xctest"
+               BlueprintName = "CDAWiFiTests"
+               ReferencedContainer = "container:CDAWiFi.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EB86CFB1AA29C6D00C7F454"
-            BuildableName = "CDACoreWLAN.framework"
-            BlueprintName = "CDACoreWLAN"
-            ReferencedContainer = "container:CDACoreWLAN.xcodeproj">
+            BlueprintIdentifier = "6EB86D551AA2E9C300C7F454"
+            BuildableName = "CDAWiFi.framework"
+            BlueprintName = "CDAWiFi"
+            ReferencedContainer = "container:CDAWiFi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EB86CFB1AA29C6D00C7F454"
-            BuildableName = "CDACoreWLAN.framework"
-            BlueprintName = "CDACoreWLAN"
-            ReferencedContainer = "container:CDACoreWLAN.xcodeproj">
+            BlueprintIdentifier = "6EB86D551AA2E9C300C7F454"
+            BuildableName = "CDAWiFi.framework"
+            BlueprintName = "CDAWiFi"
+            ReferencedContainer = "container:CDAWiFi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6EB86CFB1AA29C6D00C7F454"
-            BuildableName = "CDACoreWLAN.framework"
-            BlueprintName = "CDACoreWLAN"
-            ReferencedContainer = "container:CDACoreWLAN.xcodeproj">
+            BlueprintIdentifier = "6EB86D551AA2E9C300C7F454"
+            BuildableName = "CDAWiFi.framework"
+            BlueprintName = "CDAWiFi"
+            ReferencedContainer = "container:CDAWiFi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,13 +1,13 @@
 //
 //  CDAWiFiNetwork.h
-//  CDACoreWLAN
+//  CDAWiFi
 //
 //  Created by Alsey Coleman Miller on 2/28/15.
 //  Copyright (c) 2015 ColemanCDA. All rights reserved.
 //
 
 #import <ObjFW/ObjFW.h>
-#import <CDACoreWLAN/CDAWiFiTypes.h>
+#import <CDAWiFi/CDAWiFiTypes.h>
 
 @class CDAWiFiChannel;
 

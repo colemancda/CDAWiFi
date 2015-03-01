@@ -1,19 +1,19 @@
 //
-//  CDACoreWLANTests.m
-//  CDACoreWLANTests
+//  CDAWiFiTests.m
+//  CDAWiFiTests
 //
-//  Created by Alsey Coleman Miller on 2/28/15.
+//  Created by Alsey Coleman Miller on 3/1/15.
 //  Copyright (c) 2015 ColemanCDA. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
-@interface CDACoreWLANTests : XCTestCase
+@interface CDAWiFiTests : XCTestCase
 
 @end
 
-@implementation CDACoreWLANTests
+@implementation CDAWiFiTests
 
 - (void)setUp {
     [super setUp];

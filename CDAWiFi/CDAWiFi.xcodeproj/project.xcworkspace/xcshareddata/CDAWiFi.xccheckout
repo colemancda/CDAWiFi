@@ -5,9 +5,9 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>73699ACC-18FC-49D9-A4E7-5E2A40EF22D2</string>
+	<string>362805A6-DC96-42D7-A371-0FBF57A4A809</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CDACoreWLAN</string>
+	<string>CDAWiFi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7D128A7D543E37AE07E76C40CC094AA4674E0988</key>
@@ -16,13 +16,13 @@
 		<string>https://github.com/colemancda/objfw.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CDACoreWLAN/CDACoreWLAN.xcodeproj</string>
+	<string>CDAWiFi/CDAWiFi.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7D128A7D543E37AE07E76C40CC094AA4674E0988</key>
 		<string>../../..</string>
 		<key>E05BCCE56301C9C5CDA3B824181EB69977CFED1A</key>
-		<string>../../..objfw/</string>
+		<string>../../../../CDAWiFi/objfw</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/colemancda/CoreWLAN-ObjFW.git</string>
