@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>73699ACC-18FC-49D9-A4E7-5E2A40EF22D2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CDACoreWLAN</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7D128A7D543E37AE07E76C40CC094AA4674E0988</key>
+		<string>https://github.com/colemancda/CoreWLAN-ObjFW.git</string>
+		<key>E05BCCE56301C9C5CDA3B824181EB69977CFED1A</key>
+		<string>https://github.com/colemancda/objfw.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CDACoreWLAN/CDACoreWLAN.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7D128A7D543E37AE07E76C40CC094AA4674E0988</key>
+		<string>../../..</string>
+		<key>E05BCCE56301C9C5CDA3B824181EB69977CFED1A</key>
+		<string>../../..objfw/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/colemancda/CoreWLAN-ObjFW.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7D128A7D543E37AE07E76C40CC094AA4674E0988</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7D128A7D543E37AE07E76C40CC094AA4674E0988</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoreWLAN-ObjFW</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E05BCCE56301C9C5CDA3B824181EB69977CFED1A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>objfw</string>
+		</dict>
+	</array>
+</dict>
+</plist>
