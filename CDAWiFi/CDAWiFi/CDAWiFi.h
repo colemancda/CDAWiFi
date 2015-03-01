@@ -7,6 +7,7 @@
 //
 
 #import <ObjFW/ObjFW.h>
+#import <CDAFoundation/CDAFoundation.h>
 
 //! Project version number for CDAWiFi.
 FOUNDATION_EXPORT double CDAWiFiVersionNumber;
@@ -14,5 +15,13 @@ FOUNDATION_EXPORT double CDAWiFiVersionNumber;
 //! Project version string for CDAWiFi.
 FOUNDATION_EXPORT const unsigned char CDAWiFiVersionString[];
 
-#import <CDAWiFi/CDAWiFiChannel.h>
 #import <CDAWiFi/CDAWiFiTypes.h>
+#import <CDAWiFi/CDAWiFiChannel.h>
+#import <CDAWiFi/CDAWiFiClient.h>
+#import <CDAWiFi/CDAWiFiInterface.h>
+#import <CDAWiFi/CDAWiFiNetwork.h>
+#import <CDAWiFi/CDAWiFiNetworkProfile.h>
+
+
+
+

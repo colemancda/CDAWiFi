@@ -22,6 +22,7 @@
 		6EB86D881AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D7C1AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.m */; };
 		6EB86D891AA2E9ED00C7F454 /* CDAWiFiTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D7D1AA2E9ED00C7F454 /* CDAWiFiTypes.h */; };
 		6EB86D9D1AA2EA7F00C7F454 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86D961AA2EA6F00C7F454 /* ObjFW.framework */; };
+		6EB86DE71AA2ECB800C7F454 /* CDAFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86DCA1AA2EBFB00C7F454 /* CDAFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,27 @@
 			remoteGlobalIDString = 4B3D23751337FBC800DD29B8;
 			remoteInfo = ObjFW;
 		};
+		6EB86DC91AA2EBFB00C7F454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB86DC41AA2EBFA00C7F454 /* CDAFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EB86DA81AA2EBFA00C7F454;
+			remoteInfo = CDAFoundation;
+		};
+		6EB86DCB1AA2EBFB00C7F454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB86DC41AA2EBFA00C7F454 /* CDAFoundation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EB86DB31AA2EBFA00C7F454;
+			remoteInfo = CDAFoundationTests;
+		};
+		6EB86DE51AA2ECB100C7F454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB86DC41AA2EBFA00C7F454 /* CDAFoundation.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB86DA71AA2EBFA00C7F454;
+			remoteInfo = CDAFoundation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +110,7 @@
 		6EB86D7C1AA2E9ED00C7F454 /* CDAWiFiNetworkProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAWiFiNetworkProfile.m; sourceTree = "<group>"; };
 		6EB86D7D1AA2E9ED00C7F454 /* CDAWiFiTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAWiFiTypes.h; sourceTree = "<group>"; };
 		6EB86D8A1AA2EA6F00C7F454 /* ObjFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjFW.xcodeproj; path = ../objfw/ObjFW.xcodeproj; sourceTree = "<group>"; };
+		6EB86DC41AA2EBFA00C7F454 /* CDAFoundation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CDAFoundation.xcodeproj; path = ../CDAFoundation/CDAFoundation/CDAFoundation.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB86DE71AA2ECB800C7F454 /* CDAFoundation.framework in Frameworks */,
 				6EB86D9D1AA2EA7F00C7F454 /* ObjFW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +137,7 @@
 		6EB86D4C1AA2E9C300C7F454 = {
 			isa = PBXGroup;
 			children = (
+				6EB86DC41AA2EBFA00C7F454 /* CDAFoundation.xcodeproj */,
 				6EB86D8A1AA2EA6F00C7F454 /* ObjFW.xcodeproj */,
 				6EB86D581AA2E9C300C7F454 /* CDAWiFi */,
 				6EB86D651AA2E9C300C7F454 /* CDAWiFiTests */,
@@ -185,6 +210,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6EB86DC51AA2EBFA00C7F454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB86DCA1AA2EBFB00C7F454 /* CDAFoundation.framework */,
+				6EB86DCC1AA2EBFB00C7F454 /* CDAFoundationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,6 +251,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6EB86DE61AA2ECB100C7F454 /* PBXTargetDependency */,
 				6EB86D9C1AA2EA7B00C7F454 /* PBXTargetDependency */,
 			);
 			name = CDAWiFi;
@@ -272,6 +307,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 6EB86DC51AA2EBFA00C7F454 /* Products */;
+					ProjectRef = 6EB86DC41AA2EBFA00C7F454 /* CDAFoundation.xcodeproj */;
+				},
+				{
 					ProductGroup = 6EB86D8B1AA2EA6F00C7F454 /* Products */;
 					ProjectRef = 6EB86D8A1AA2EA6F00C7F454 /* ObjFW.xcodeproj */;
 				},
@@ -311,6 +350,20 @@
 			fileType = "compiled.mach-o.dylib";
 			path = TestPlugin.bundle;
 			remoteRef = 6EB86D991AA2EA6F00C7F454 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EB86DCA1AA2EBFB00C7F454 /* CDAFoundation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CDAFoundation.framework;
+			remoteRef = 6EB86DC91AA2EBFB00C7F454 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EB86DCC1AA2EBFB00C7F454 /* CDAFoundationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CDAFoundationTests.xctest;
+			remoteRef = 6EB86DCB1AA2EBFB00C7F454 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -365,6 +418,11 @@
 			isa = PBXTargetDependency;
 			name = ObjFW;
 			targetProxy = 6EB86D9B1AA2EA7B00C7F454 /* PBXContainerItemProxy */;
+		};
+		6EB86DE61AA2ECB100C7F454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDAFoundation;
+			targetProxy = 6EB86DE51AA2ECB100C7F454 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

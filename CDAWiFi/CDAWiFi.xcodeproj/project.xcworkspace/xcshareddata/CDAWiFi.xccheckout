@@ -12,6 +12,8 @@
 	<dict>
 		<key>7D128A7D543E37AE07E76C40CC094AA4674E0988</key>
 		<string>https://github.com/colemancda/CoreWLAN-ObjFW.git</string>
+		<key>B025CE2DD2ACB62C0724199826F26D61850FC63A</key>
+		<string>https://github.com/colemancda/CDAFoundation.git</string>
 		<key>E05BCCE56301C9C5CDA3B824181EB69977CFED1A</key>
 		<string>https://github.com/colemancda/objfw.git</string>
 	</dict>
@@ -21,6 +23,8 @@
 	<dict>
 		<key>7D128A7D543E37AE07E76C40CC094AA4674E0988</key>
 		<string>../../..</string>
+		<key>B025CE2DD2ACB62C0724199826F26D61850FC63A</key>
+		<string>../../../../CDAWiFi/CDAFoundation</string>
 		<key>E05BCCE56301C9C5CDA3B824181EB69977CFED1A</key>
 		<string>../../../../CDAWiFi/objfw</string>
 	</dict>
@@ -32,6 +36,14 @@
 	<string>7D128A7D543E37AE07E76C40CC094AA4674E0988</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B025CE2DD2ACB62C0724199826F26D61850FC63A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CDAFoundation</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
