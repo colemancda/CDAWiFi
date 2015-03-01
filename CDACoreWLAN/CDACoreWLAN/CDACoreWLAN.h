@@ -14,4 +14,6 @@ FOUNDATION_EXPORT double CDACoreWLANVersionNumber;
 //! Project version string for CDACoreWLAN.
 FOUNDATION_EXPORT const unsigned char CDACoreWLANVersionString[];
 
-#import <CDACoreWLAN/CDA8021XProfile.h>
+#import <CDACoreWLAN/CDAWiFiChannel.h>
+#import <CDACoreWLAN/CDACoreWLANTypes.h>
+

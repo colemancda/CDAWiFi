@@ -13,8 +13,11 @@
 		6EB86D2B1AA29CBB00C7F454 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86D241AA29CA000C7F454 /* ObjFW.framework */; };
 		6EB86D301AA29D0E00C7F454 /* ObjFW-Bridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86D261AA29CA000C7F454 /* ObjFW-Bridge.framework */; };
 		6EB86D311AA29D0E00C7F454 /* ObjFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86D241AA29CA000C7F454 /* ObjFW.framework */; };
-		6EB86D341AA29D6F00C7F454 /* CDA8021XProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D321AA29D6F00C7F454 /* CDA8021XProfile.h */; };
-		6EB86D351AA29D6F00C7F454 /* CDA8021XProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D331AA29D6F00C7F454 /* CDA8021XProfile.m */; };
+		6EB86D381AA2A19F00C7F454 /* CDAWiFiChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D361AA2A19F00C7F454 /* CDAWiFiChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB86D391AA2A19F00C7F454 /* CDAWiFiChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D371AA2A19F00C7F454 /* CDAWiFiChannel.m */; };
+		6EB86D3B1AA2A53B00C7F454 /* CDAWiFiTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D3A1AA2A37900C7F454 /* CDAWiFiTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB86D3E1AA2B48100C7F454 /* CDAWiFiNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB86D3C1AA2B48100C7F454 /* CDAWiFiNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB86D3F1AA2B48100C7F454 /* CDAWiFiNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB86D3D1AA2B48100C7F454 /* CDAWiFiNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,8 +87,11 @@
 		6EB86D0D1AA29C6D00C7F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EB86D0E1AA29C6D00C7F454 /* CDACoreWLANTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDACoreWLANTests.m; sourceTree = "<group>"; };
 		6EB86D181AA29CA000C7F454 /* ObjFW.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjFW.xcodeproj; path = ../objfw/ObjFW.xcodeproj; sourceTree = "<group>"; };
-		6EB86D321AA29D6F00C7F454 /* CDA8021XProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDA8021XProfile.h; sourceTree = "<group>"; };
-		6EB86D331AA29D6F00C7F454 /* CDA8021XProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDA8021XProfile.m; sourceTree = "<group>"; };
+		6EB86D361AA2A19F00C7F454 /* CDAWiFiChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAWiFiChannel.h; sourceTree = "<group>"; };
+		6EB86D371AA2A19F00C7F454 /* CDAWiFiChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAWiFiChannel.m; sourceTree = "<group>"; };
+		6EB86D3A1AA2A37900C7F454 /* CDAWiFiTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDAWiFiTypes.h; sourceTree = "<group>"; };
+		6EB86D3C1AA2B48100C7F454 /* CDAWiFiNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAWiFiNetwork.h; sourceTree = "<group>"; };
+		6EB86D3D1AA2B48100C7F454 /* CDAWiFiNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAWiFiNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				6EB86D011AA29C6D00C7F454 /* CDACoreWLAN.h */,
-				6EB86D321AA29D6F00C7F454 /* CDA8021XProfile.h */,
-				6EB86D331AA29D6F00C7F454 /* CDA8021XProfile.m */,
+				6EB86D3A1AA2A37900C7F454 /* CDAWiFiTypes.h */,
+				6EB86D361AA2A19F00C7F454 /* CDAWiFiChannel.h */,
+				6EB86D371AA2A19F00C7F454 /* CDAWiFiChannel.m */,
+				6EB86D3C1AA2B48100C7F454 /* CDAWiFiNetwork.h */,
+				6EB86D3D1AA2B48100C7F454 /* CDAWiFiNetwork.m */,
 				6EB86CFF1AA29C6D00C7F454 /* Supporting Files */,
 			);
 			path = CDACoreWLAN;
@@ -183,8 +192,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB86D381AA2A19F00C7F454 /* CDAWiFiChannel.h in Headers */,
+				6EB86D3E1AA2B48100C7F454 /* CDAWiFiNetwork.h in Headers */,
+				6EB86D3B1AA2A53B00C7F454 /* CDAWiFiTypes.h in Headers */,
 				6EB86D021AA29C6D00C7F454 /* CDACoreWLAN.h in Headers */,
-				6EB86D341AA29D6F00C7F454 /* CDA8021XProfile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +247,7 @@
 		6EB86CF31AA29C6D00C7F454 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CDA;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = ColemanCDA;
 				TargetAttributes = {
@@ -324,7 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB86D351AA29D6F00C7F454 /* CDA8021XProfile.m in Sources */,
+				6EB86D3F1AA2B48100C7F454 /* CDAWiFiNetwork.m in Sources */,
+				6EB86D391AA2A19F00C7F454 /* CDAWiFiChannel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,13 +1,13 @@
 //
-//  CDA8021XProfile.m
+//  CDAWiFiNetwork.m
 //  CDACoreWLAN
 //
 //  Created by Alsey Coleman Miller on 2/28/15.
 //  Copyright (c) 2015 ColemanCDA. All rights reserved.
 //
 
-#import "CDA8021XProfile.h"
+#import "CDAWiFiNetwork.h"
 
-@implementation CDA8021XProfile
+@implementation CDAWiFiNetwork
 
 @end
