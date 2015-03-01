@@ -1,6 +1,3 @@
-[submodule "objfw"]
-	path = objfw
-	url = https://github.com/colemancda/objfw.git
 [submodule "CDAFoundation"]
 	path = CDAFoundation
 	url = https://github.com/colemancda/CDAFoundation.git
