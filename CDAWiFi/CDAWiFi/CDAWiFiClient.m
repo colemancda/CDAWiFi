@@ -18,6 +18,8 @@
     
     dispatch_once(&onceToken, ^{
         sharedStore = [[self alloc] init];
+        
+        CDALog(@"Starting shared WiFi client");
     });
     
     return sharedStore;
